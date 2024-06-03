@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceAPP</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/form.css">
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Lato:wght@300&family=Open+Sans&family=Oswald&family=Poppins:wght@200;500;700&family=Press+Start+2P&family=REM&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.min.css" rel="stylesheet">
+
+</head>
+<body>
+    
+        <header class="header">
+            <img class="header__logo" src="./assets/LogoAluraGeek.png" alt="SpaceApp">
+            <input class="header__input" type="text" placeholder="Qué buscas?">
+        </header>
+
+        <div class="grouping">
+
+            <aside class="aside">
+                <ul class="lista__menu">
+                    <div class="item__lista" id="menu-inicio">
+                        <li>Inicio</li>
+                    </div>
+                    <div class="item__lista" id="menu-mis-productos">
+                        <li>Mis productos</li>
+                    </div>
+                    <div class="item__lista" id="menu-agregar-productos">
+                        <li>Agregar productos</li>
+                    </div>
+                </ul>
+            </aside>
+ 
+            <div class="banner">
+                <img class="banner__image" src="assets/BannerAluraGeek.jpg" alt="bla">
+                <h3 class="gallery__text">Mis productos</h2>
+
+            </div>
+
+
+
+        </div>
+
+    <div class="main-content">
+
+            <section class="card__section">
+                <ul class="ul__cards" data-ul>
+                    <!-- Aquí se agregarán dinámicamente las tarjetas de productos -->
+                </ul>
+            </section>
+
+            <section class="formulario" id="section-agregar-productos">
+                <div class="formulario__container">
+                    <h2 class="formulario__titulo-texto">Agregar producto</h2>
+                    
+                </div>
+                <form class="principal__formulario" data-formulario>
+                    <fieldset class="formulario__campo">
+                        <label class="campo__etiqueta" for="nombre">Nombre</label>
+                        <input name="nombre" id="nombre" class="campo__completo" type="text" minlength="3" required>
+                        <span class="mensaje-error"></span>
+                    </fieldset>
+
+                    <fieldset class="formulario__campo">
+                        <label class="campo__etiqueta" for="precio">Precio</label>
+                        <input name="precio" id="precio" class="campo__completo" type="number" step="0.01" min="0" required>
+                        <span class="mensaje-error"></span>
+                    </fieldset>
+
+                    <fieldset class="formulario__campo">
+                        <label class="campo__etiqueta" for="imagen">Imagen (URL)</label>
+                        <input name="imagen" id="imagen" class="campo__completo" type="text" placeholder="Ingrese la URL de la imagen" required>
+                        <span class="mensaje-error"></span>
+                    </fieldset>
+
+                    <div class="botones__form">
+                        <input value="Agregar" class="formulario__boton agregar" id="enviar" data-boton-enviar type="submit">
+                        <input value="Limpiar" class="formulario__boton limpiar" id="limpiar" type="reset">
+                    </div>
+                </form>
+
+               
+                <!--   
+                 <div id="vistaPreviaImagen">
+                <input value="Confirmar" class="formulario__boton confirmar" id="confirmar" data-boton-enviar type="done">
+                disabled
+                <input type="button" value="Confirmar" class="formulario__boton confirmar" id="confirmar" >
+
+                </div>
+                -->
+                
+
+                <div id="vistaPreviaImagen">
+                    
+                </div>
+                <input type="button" value="Confirmar" class="formulario__boton confirmar d-none" id="confirmar">
+
+            </section>
+        </div>
+
+    <footer class="footer">
+        <div class="footer__Logo">
+            <img class="header__logo" src="./assets/LogoAluraGeek.png" alt="SpaceApp">
+            
+
+        </div>
+        <div class="footer__icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+        <p class="footer__text__principal">ALURA LATAM - 2024</p>
+        <p class="footer__text">Desarrollado por Iris Curo</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/ef3eea8822.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.min.js"></script>
+
+
+</body>
+</html>

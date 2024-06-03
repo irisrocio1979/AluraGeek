@@ -1,0 +1,64 @@
+[
+    {
+        "url": "ejemplos/candy_candyGh.png",
+        "title": "Zapatitos",
+        "price": 10.00
+    },
+    {
+        "url": "ejemplos/Colibri_de_metal.png",
+        "title": "Makiypi",
+        "price": 20.00
+    },
+    {
+        "url": "ejemplos/FlorEs.png",
+        "title": "Pieza",
+        "price": 30.00
+    },
+
+    {
+        "url": "ejemplos/Cuento_de_hadas.png",
+        "title": "Bry",
+        "price": 24.20
+    },
+
+    {
+        "url": "ejemplos/Ninfa_Anne.png",
+        "title": "Ninfa",
+        "price": 36.00
+    },
+
+    {
+        "url": "ejemplos/Peluche_de_nutria_A.png",
+        "title": "Peluche cute",
+        "price": 41.00
+    },
+
+    {
+        "url": "ejemplos/Peluche_de_nutria.png",
+        "title": "Peluche de nutria",
+        "price": 12.00
+    },
+    {
+        "url": "https://th.bing.com/th/id/R.b972cb53cf15d131236ef3cf20172199?rik=vgzGxhSdyrzKHA&pid=ImgRaw&r=0",
+        "title": "Doraemon",
+        "price": 21.00
+    },
+
+    {
+        "url": "https://th.bing.com/th/id/OIF.30ZyWQUrHrnhE8qIjKhbkA?rs=1&pid=ImgDetMain",
+        "title": "San",
+        "price": 23.00
+    },
+
+    {
+        "url": "https://th.bing.com/th/id/R.0e9990f0ac297c119a4e7ecf150b208f?rik=bJgYAGnH3hTqsA&riu=http%3a%2f%2fmarcusgohmarcusgoh.com%2fwp%2fwp-content%2fuploads%2f2017%2f05%2fDoraemon-Poster.jpg&ehk=LHLztiLnaK35o8Aj5CHF5Fql%2fkDjAEXSj5Ez%2fYdu%2fNM%3d&risl=&pid=ImgRaw&r=0",
+        "title": "Ro",
+        "price": 10.00
+    },
+
+    {
+        "url": "https://www.albinabosch.com/wp-content/uploads/2021/10/bola-de-nieve-cristal-navidad-57009.jpg",
+        "title": "Bola de nieve",
+        "price": 16.00
+    }
+]
